@@ -19,8 +19,8 @@
 
     <Button
         android:id="@+id/btnChangeTextClick"
-        android:layout_width="116dp"
-        android:layout_height="51dp"
+        android:layout_width="107dp"
+        android:layout_height="65dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="160dp"
@@ -29,7 +29,6 @@
         android:text="@string/change_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvDemoLabel"
         app:layout_constraintVertical_bias="0.0" />
