@@ -8,7 +8,6 @@ import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -16,8 +15,6 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
     TextView tvDemoLabel;
     Button changeColorButton;
-    Button changeBgButton;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,29 +32,21 @@ public class MainActivity extends AppCompatActivity {
         changeColorButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tvDemoLabel.setTextColor(Color.parseColor("#FFFF00"));
+                tvDemoLabel.setTextColor(Color.parseColor("#FF0000"));
                 tvDemoLabel.setBackgroundColor(Color.GRAY );
             }
         });
-
-        ConstraintLayout rootLayout = findViewById(R.id.main);
-        rootLayout.setBackgroundColor(Color.LTGRAY);
-
-        changeBgButton = findViewById(R.id.btnChangeBgColor);
-        changeBgButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                tvDemoLabel.setBackgroundColor(Color.GREEN );
-            }
-        });
-
-
     }
 
     public void changeTextClick(View view) {
 
         tvDemoLabel.setText("Hello World! Updated");
     }
-    //NewBranch
-
 }
+//Main changes
+//Main changes
+//Main changes
+//Main changes
+//Main changes
+
+//Code for revert
